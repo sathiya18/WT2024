@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Listener Example</title>
+</head>
+<body><h1>EventListener</h1>
+  <button id="myButton">Click Me!</button>
+  <script>
+    const buttonElement = document.getElementById('myButton');
+
+    buttonElement.addEventListener('click', function handleClick() {
+      console.log("Button clicked!");
+      // You can add further actions here, like changing the button text or styling
+    });
+  </script>
+</body>
+</html>
+
